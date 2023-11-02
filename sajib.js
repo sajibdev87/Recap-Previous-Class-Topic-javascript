@@ -123,3 +123,19 @@ isLeepYear(2024)
     }
     var result = isEven(1)
     console.log (result);
+
+function parshoMonkotoKg (mon) {
+    var monResult = 40*mon
+    return monResult
+}
+let result4 = parshoMonkotoKg(500)
+console.log (result4);
+
+
+function celsiusToFarhenhite (celsius){
+    let celsiusResult = celsius*1.8;
+    let celsiusi =celsiusResult+32;
+    return celsiusi
+}
+ const result = celsiusToFarhenhite(33)
+ console.log(result);
